@@ -44,6 +44,7 @@
     <Compile Include="Credit Card Validation\VisaCardValidator.cs" />
     <Compile Include="Credit Card Validation\MasterCardValidator.cs" />
     <Compile Include="Customer\CustomerInfo.cs" />
+    <Compile Include="Customer\Email.cs" />
     <Compile Include="Order\OrderItem.cs" />
     <Compile Include="Order\Product.cs" />
     <Compile Include="Order\SizeEnum.cs" />

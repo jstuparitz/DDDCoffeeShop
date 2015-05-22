@@ -10,8 +10,7 @@ namespace CoffeeShop.RetailOrdering.Domain.Customer
     {
         public string FirstName;
         public string LastName;
-        public string Email;
-
+       
         public CustomerInfo(string firstName, string lastName, string email)
         {
             setFirstName(firstName);
