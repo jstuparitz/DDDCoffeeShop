@@ -12,3 +12,6 @@ C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\bin\Debug\CoffeeS
 C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.csprojResolveAssemblyReference.cache
 C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.dll
 C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.pdb
+C:\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.csprojResolveAssemblyReference.cache
+C:\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.dll
+C:\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.pdb

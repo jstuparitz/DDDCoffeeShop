@@ -47,7 +47,9 @@
     <Compile Include="Customer\Email.cs" />
     <Compile Include="Order\OrderItem.cs" />
     <Compile Include="Order\Product.cs" />
-    <Compile Include="Order\SizeEnum.cs" />
+    <Compile Include="Order\ProductId.cs" />
+    <Compile Include="Order\Size.cs" />
+    <Compile Include="Order\Toppings.cs" />
     <Compile Include="Payment Information\BillingInformation.cs" />
     <Compile Include="Payment Information\PaymentInformation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

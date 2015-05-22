@@ -20,3 +20,5 @@ C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\bin\Deb
 C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\obj\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.csprojResolveAssemblyReference.cache
 C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\obj\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.dll
 C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\obj\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.pdb
+C:\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\obj\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.csprojResolveAssemblyReference.cache
+C:\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\obj\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.dll

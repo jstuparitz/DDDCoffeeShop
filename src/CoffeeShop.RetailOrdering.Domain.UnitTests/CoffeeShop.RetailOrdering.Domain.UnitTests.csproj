@@ -45,6 +45,8 @@
     <Compile Include="Credit Card Validation\CreditCardValidatorFactoryTest.cs" />
     <Compile Include="Credit Card Validation\MasterCardValidatorTest.cs" />
     <Compile Include="Credit Card Validation\VisaCardValidatorTest.cs" />
+    <Compile Include="Order\OrderItemTest.cs" />
+    <Compile Include="Order\ProductTest.cs" />
     <Compile Include="Payment Information\BillingInformationTest.cs" />
     <Compile Include="Payment Information\PaymentInformationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
