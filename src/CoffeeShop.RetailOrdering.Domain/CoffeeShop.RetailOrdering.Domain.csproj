@@ -40,9 +40,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Credit Card Validation\CreditCardValidator.cs" />
-    <Compile Include="Credit Card Validation\VisaValidator.cs" />
+    <Compile Include="Credit Card Validation\CreditCardValidatorFactory.cs" />
+    <Compile Include="Credit Card Validation\VisaCardValidator.cs" />
     <Compile Include="Credit Card Validation\MasterCardValidator.cs" />
+    <Compile Include="Order\OrderItem.cs" />
+    <Compile Include="Order\Product.cs" />
+    <Compile Include="Order\SizeEnum.cs" />
     <Compile Include="Payment Information\BillingInformation.cs" />
+    <Compile Include="Payment Information\PaymentInformation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -11,7 +11,7 @@ namespace CoffeeShop.RetailOrdering.Domain
     class BillingInformation : ValueObject
     {
         //Do these need to be readonly?
-        private PaymentType payment;
+        private PaymentType paymentType;
         private List<int> cardNumber;
         private DateTime expirationDate;
 
@@ -23,14 +23,23 @@ namespace CoffeeShop.RetailOrdering.Domain
             //Only set after we confirm these parameters are valid
             cardNumber = newCardNumber.ToList<int>();
             expirationDate = newExpirationDate;
-            payment = newPaymentType;
+            paymentType = newPaymentType;
 
         }
 
+        protected override IEnumerable<object> GetEqualityComponents()
+        {
+            List<object> equalityComponents = new List<object>();
+
+            equalityComponents.Add(paymentType);
+            equalityComponents.Add(cardNumber);
+            equalityComponents.Add(expirationDate);
+
+            return equalityComponents;
+
+        }
 
     }
-
-
 
     public enum PaymentType
     {

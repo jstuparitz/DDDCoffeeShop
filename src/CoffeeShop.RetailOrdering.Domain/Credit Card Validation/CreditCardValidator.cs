@@ -7,12 +7,11 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.RetailOrdering.Domain.Credit_Card_Validation
 {
-    abstract class CreditCardValidator
+    public abstract class CreditCardValidator
     {
 
         protected List<int> cardNumber;
         protected DateTime expirationDate;
-        protected int[] DELTAS = { 0, 1, 2, 3, 4, -4, -3, -2, -1, 0 };
 
         protected readonly string EXPIRED_ERROR_MESSAGE = "This credit card has expired.";
         protected readonly string INVALID_CARD_NUMBER_ERROR_MESSAGE = "Invalid credit card number.";
@@ -26,28 +25,35 @@ namespace CoffeeShop.RetailOrdering.Domain.Credit_Card_Validation
             expirationDate = newExpirationDate;
         }
 
-        abstract public void validate();
+        abstract public bool validate();
 
 
         /// <summary>
         /// Based on Ligilo's post here:
         /// http://microcoder.livejournal.com/17175.html
+        /// and this implementation 
+        /// http://orb-of-knowledge.blogspot.com/2009/08/extremely-fast-luhn-function-for-c.html
         /// </summary>
         protected void LuhnCreditCardValidation()
         {
-            long checkSum = 0;
+            var checkSum = 0;
+            var alt = false;
 
-            for (int i = 0; i < cardNumber.Count;i++)
+
+            for (int i = cardNumber.Count - 1; i >= 0; i--)
             {
-                int number = cardNumber[i];
-                checkSum += number;
-                if ( (i % 2) == 1)
+                var curDigit = cardNumber[i];
+                if (alt)
                 {
-                    checkSum += DELTAS[number];
+                    curDigit *= 2;
+                    if (curDigit > 9)
+                        curDigit -= 9;
                 }
-
+                checkSum += curDigit;
+                alt = !alt;
             }
-            AssertionConcern.AssertArgumentTrue(((checkSum % 10) == 0),INVALID_CARD_NUMBER_ERROR_MESSAGE);
+            bool creditCardFinalCheck = ((checkSum % 10) == 0);
+            AssertionConcern.AssertStateTrue(creditCardFinalCheck,INVALID_CARD_NUMBER_ERROR_MESSAGE);
         }
 
         /// <summary>
@@ -60,8 +66,8 @@ namespace CoffeeShop.RetailOrdering.Domain.Credit_Card_Validation
         protected void CheckExpirationDate()
         {
             DateTime currentDate = DateTime.UtcNow;
-            AssertionConcern.AssertArgumentTrue(currentDate.Month <= expirationDate.Month, EXPIRED_ERROR_MESSAGE);
-            AssertionConcern.AssertArgumentTrue(currentDate.Day < expirationDate.Day,EXPIRED_ERROR_MESSAGE);
+            int comparisonResult = currentDate.CompareTo(expirationDate);
+            AssertionConcern.AssertArgumentTrue(comparisonResult < 0, EXPIRED_ERROR_MESSAGE);
         }
 
 

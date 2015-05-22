@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.RetailOrdering.Domain.Credit_Card_Validation
 {
-    class MasterCardValidator : CreditCardValidator
+    public class MasterCardValidator : CreditCardValidator
     {
         private readonly int MAX_LENGTH_OF_CARD_NUMBER = 19;
         private readonly int MIN_LENGTH_OF_CARD_NUMBER = 16;
@@ -15,7 +15,7 @@ namespace CoffeeShop.RetailOrdering.Domain.Credit_Card_Validation
         public MasterCardValidator(int[] newCardNumber,DateTime newExpirationDate) 
             : base(newCardNumber,newExpirationDate) { }
 
-        public override void validate()
+        public override bool validate()
         {
             AssertionConcern.AssertArgumentRange(cardNumber.Count,
                                                  MIN_LENGTH_OF_CARD_NUMBER,
@@ -27,6 +27,7 @@ namespace CoffeeShop.RetailOrdering.Domain.Credit_Card_Validation
 
             CheckExpirationDate();
             LuhnCreditCardValidation();
+            return true;
         }
     }
 }

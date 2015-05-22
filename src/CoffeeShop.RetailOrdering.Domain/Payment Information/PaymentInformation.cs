@@ -22,5 +22,16 @@ namespace CoffeeShop.RetailOrdering.Domain.Payment_Information
             paymentDate = newPaymentDate;
         }
 
+        protected override IEnumerable<object> GetEqualityComponents(){
+
+            List<object> equalityComponents = new List<object>();
+
+            equalityComponents.Add(creditCardBillingInformation);
+            equalityComponents.Add(paymentDate);
+
+            return equalityComponents;
+
+        }
+
     }
 }

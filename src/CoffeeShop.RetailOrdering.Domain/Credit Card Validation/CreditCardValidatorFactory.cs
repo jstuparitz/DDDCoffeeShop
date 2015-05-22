@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoffeeShop.RetailOrdering.Domain.Credit_Card_Validation
 {
-    class CreditCardValidatorFactory
+    public class CreditCardValidatorFactory
     {
 
         public static CreditCardValidator build(PaymentType newPaymentType, int[] newCardNumber, DateTime newExpirationDate)

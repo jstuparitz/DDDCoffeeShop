@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -39,8 +42,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Credit Card Validation\CreditCardValidatorFactoryTest.cs" />
+    <Compile Include="Credit Card Validation\MasterCardValidatorTest.cs" />
+    <Compile Include="Credit Card Validation\VisaCardValidatorTest.cs" />
+    <Compile Include="Payment Information\BillingInformationTest.cs" />
+    <Compile Include="Payment Information\PaymentInformationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoffeeShop.Infrastructure\CoffeeShop.Infrastructure.csproj">
+      <Project>{61456886-d82d-4ea0-b598-3fe4dae0f149}</Project>
+      <Name>CoffeeShop.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoffeeShop.RetailOrdering.Domain\CoffeeShop.RetailOrdering.Domain.csproj">
+      <Project>{10bd74d2-3c1d-4af8-a71e-56d9ec778f92}</Project>
+      <Name>CoffeeShop.RetailOrdering.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

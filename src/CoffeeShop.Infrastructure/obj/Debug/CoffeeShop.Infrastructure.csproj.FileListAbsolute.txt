@@ -1,0 +1,4 @@
+C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.Infrastructure\bin\Debug\CoffeeShop.Infrastructure.dll
+C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.Infrastructure\bin\Debug\CoffeeShop.Infrastructure.pdb
+C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.Infrastructure\obj\Debug\CoffeeShop.Infrastructure.dll
+C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.Infrastructure\obj\Debug\CoffeeShop.Infrastructure.pdb
