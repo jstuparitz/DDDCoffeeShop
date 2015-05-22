@@ -1,4 +1,5 @@
 ﻿using CoffeeShop.Infrastructure;
+using CoffeeShop.RetailOrdering.Domain.Credit_Card_Validation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace CoffeeShop.RetailOrdering.Domain
 {
     class BillingInformation : ValueObject
     {
-
+        //Do these need to be readonly?
         private PaymentType payment;
         private List<int> cardNumber;
         private DateTime expirationDate;

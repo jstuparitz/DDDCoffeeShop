@@ -26,7 +26,7 @@ namespace CoffeeShop.RetailOrdering.Domain.Credit_Card_Validation
             expirationDate = newExpirationDate;
         }
 
-        abstract protected void validate();
+        abstract public void validate();
 
 
         /// <summary>

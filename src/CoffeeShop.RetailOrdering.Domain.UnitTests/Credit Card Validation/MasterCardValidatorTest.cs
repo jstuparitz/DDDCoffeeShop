@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoffeeShop.RetailOrdering.Domain.UnitTests
+namespace CoffeeShop.RetailOrdering.Domain.UnitTests.Credit_Card_Validation
 {
-    public class Class1
+    class MasterCardValidatorTest
     {
+
+
     }
 }
