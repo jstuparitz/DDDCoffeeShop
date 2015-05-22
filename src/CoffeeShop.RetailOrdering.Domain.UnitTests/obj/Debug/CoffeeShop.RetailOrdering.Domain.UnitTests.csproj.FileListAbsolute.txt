@@ -9,3 +9,14 @@ C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Dom
 C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\bin\Debug\nunit.framework.xml
 C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\obj\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.dll
 C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\obj\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.pdb
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\bin\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.dll
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\bin\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.pdb
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\bin\Debug\CoffeeShop.Infrastructure.dll
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\bin\Debug\CoffeeShop.RetailOrdering.Domain.dll
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\bin\Debug\nunit.framework.dll
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\bin\Debug\CoffeeShop.Infrastructure.pdb
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\bin\Debug\CoffeeShop.RetailOrdering.Domain.pdb
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\bin\Debug\nunit.framework.xml
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\obj\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.csprojResolveAssemblyReference.cache
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\obj\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.dll
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain.UnitTests\obj\Debug\CoffeeShop.RetailOrdering.Domain.UnitTests.pdb

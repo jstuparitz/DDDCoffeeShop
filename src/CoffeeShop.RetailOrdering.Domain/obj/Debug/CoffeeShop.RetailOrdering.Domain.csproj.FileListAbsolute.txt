@@ -5,3 +5,10 @@ C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Dom
 C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.csprojResolveAssemblyReference.cache
 C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.dll
 C:\dev\.NET workspace\Sogeti DDD\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.pdb
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\bin\Debug\CoffeeShop.RetailOrdering.Domain.dll
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\bin\Debug\CoffeeShop.RetailOrdering.Domain.pdb
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\bin\Debug\CoffeeShop.Infrastructure.dll
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\bin\Debug\CoffeeShop.Infrastructure.pdb
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.csprojResolveAssemblyReference.cache
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.dll
+C:\Projects\DDDCoffeeShop\src\CoffeeShop.RetailOrdering.Domain\obj\Debug\CoffeeShop.RetailOrdering.Domain.pdb

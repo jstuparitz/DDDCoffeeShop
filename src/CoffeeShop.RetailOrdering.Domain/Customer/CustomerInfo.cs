@@ -12,12 +12,22 @@ namespace CoffeeShop.RetailOrdering.Domain.Customer
         public string LastName;
         public string Email;
 
-           public Custo1mer(string firstName, string lastName, string email)
-           {
-                FirstName = firstName;
-                lastName = lastName;
-                Email = email;
-           }
+        public CustomerInfo(string firstName, string lastName, string email)
+        {
+            setFirstName(firstName);
+            setLastName(lastName);
+         
+        }
+
+         private void setFirstName(string firstName)
+        {
+            this.FirstName = firstName;
+        }
+         private void setLastName(string lastName)
+        {
+            this.LastName = lastName;
+        }
+  
 
     }
 }
